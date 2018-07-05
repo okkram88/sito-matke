@@ -1551,7 +1551,7 @@
 /* Basic */
 
 	html, body {
-		background: #1c1d26;
+		background: #1111;
 	}
 
 	body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1566,7 +1566,7 @@
 	}
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(0, 0, 0, 0.75);
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
@@ -1602,7 +1602,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #000000;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2964,7 +2964,7 @@
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			background: rgba(252, 251, 247, 0.95);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3361,27 +3361,27 @@
 		z-index: 21;
 	}
 
-		#banner:before {
-			content: '';
-			display: inline-block;
-			height: 100vh;
-			vertical-align: middle;
-			width: 1%;
-		}
+	#banner:before {
+		content: '';
+		display: inline-block;
+		height: 100vh;
+		vertical-align: middle;
+		width: 1%;
+	}
 
-		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			content: '';
-			display: block;
-			height: 100%;
-			left: 0;
-			position: absolute;
-			top: 0;
-			width: 100%;
-		}
+	#banner:after {
+		/* background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
+		background-image: -webkit-linear-gradient(top, rgba(255, 0, 0, 0.95), rgba(0, 255, 0, 0.95)), url("images/overlay.png");;
+	/*	background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+		background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
+		content: '';
+		display: block;
+		height: 100%;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+	}
 
 		#banner .content {
 			display: inline-block;
@@ -3431,7 +3431,7 @@
 /* Footer */
 
 	#footer {
-		background: #272833;
+		background: #885500;
 		padding: 6em 0;
 		text-align: center;
 	}
@@ -3455,7 +3455,7 @@
 			}
 
 		#footer .copyright {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(0, 0, 0, 0.9);
 			font-size: 0.8em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
